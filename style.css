@@ -36,3 +36,11 @@ h1{
   font-size:0.8em;
   border-top:1px solid black;
 }
+
+#nav li{
+  list-style-type: none;
+  float: left;
+  margin:auto;
+  padding: 0;
+  width:25%;
+}
