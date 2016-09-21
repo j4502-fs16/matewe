@@ -6,29 +6,29 @@ body{
 
 h1{
   color:#1f2e2e;
-  font-family:'Quattrocento', serif;
+  font-family:'David Libre', serif;
   font-size:2em;
-  font-weight:bolder;
+  font-weight:regular;
   margin-top: 0;
   text-align: center;
 }
 
 h2{
   color:#1f2e2e;
-  font-family:Helvetica,Arial,sans-serif;
+  font-family:'David Libre', serif;
   font-style: oblique;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: regular;
   margin-top: 0;
   text-align: center;
 }
 
 p{
   color:#293d3d;
-  font-family:'Cinzel', serif;
+  font-family:'Open Sans', sans-serif;
   font-size: 0.8em;
   margin-top: 0;
-  font-weight: bold;
+  font-weight: regular;
   text-align: center;
 }
 
@@ -58,7 +58,7 @@ p{
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    font-family: Helvetica,Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #nav a:hover, a:active {
