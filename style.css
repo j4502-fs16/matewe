@@ -5,30 +5,30 @@ body{
 
 
 h1{
-  color:#081A25;
-  font-family:'Yatra One';
-  font-size:2em;
-  font-weight:regular;
+  color:#153649;
+  font-family: 'Vidaloka', serif;
+  font-size:3em;
+  font-weight:regular 400;
   margin-top: 0;
   text-align: center;
 }
 
 h2{
-  color:#1f2e2e;
-  font-family:'David Libre', serif;
+  color:#153649;
+  font-family: 'Roboto', sans-serif;
   font-style: oblique;
   font-size: 1em;
-  font-weight: regular;
+  font-weight: regular 400;
   margin-top: 0;
   text-align: center;
 }
 
 p{
   color:#293d3d;
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Vidaloka', serif;
   font-size: 0.8em;
   margin-top: 0;
-  font-weight: regular;
+  font-weight: regular 400;
   text-align: center;
 }
 
@@ -53,12 +53,12 @@ p{
 #nav a:link, a:visited {
   display:block;
     color:#d6d6c2;
-    background-color: #ffffff;
-    font-weight:bold;
+    background-color: #407290;
+    font-weight:bold 700;
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #nav a:hover, a:active {
