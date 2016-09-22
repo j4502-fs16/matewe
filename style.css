@@ -1,11 +1,11 @@
 body{
-  background-color:#a3c2c2;
+  background-color:#5F7988;
   text-align:center;
 }
 
 
 h1{
-  color:#153649;
+  color:#334249;
   font-family: 'Vidaloka', serif;
   font-size:3em;
   font-weight:regular 400;
@@ -14,7 +14,7 @@ h1{
 }
 
 h2{
-  color:#153649;
+  color:#0E4563;
   font-family: 'Roboto', sans-serif;
   font-style: oblique;
   font-size: 1em;
@@ -24,7 +24,7 @@ h2{
 }
 
 p{
-  color:#293d3d;
+  color:#547F96;
   font-family: 'Vidaloka', serif;
   font-size: 0.8em;
   margin-top: 0;
@@ -52,7 +52,7 @@ p{
 
 #nav a:link, a:visited {
   display:block;
-    color:#d6d6c2;
+    color:#ffffff;
     background-color: #407290;
     font-weight:bold 700;
     text-align: center;
@@ -62,7 +62,7 @@ p{
 }
 
 #nav a:hover, a:active {
-  background-color: #B98C01;
+  background-color: #0E4563;
 }
 
 img {
