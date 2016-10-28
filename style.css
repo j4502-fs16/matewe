@@ -129,10 +129,9 @@ h1{
 }
 
 h2{
-  color:#0E4563;
-  font-family: 'Roboto', sans-serif;
-  font-style: oblique;
-  font-size: 1em;
+  color:#ffffff;
+  font-family: 'Vidaloka', serif;
+    font-size: 1.1em;
   font-weight: normal;;
   margin-top: 0;
   text-align: center;
@@ -173,7 +172,7 @@ p{
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Vidaloka', serif;
 }
 
 #nav a:hover, a:active {
