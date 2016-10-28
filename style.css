@@ -21,7 +21,21 @@
 }
  a{
    color:#ffffff;
- }
+   }
+
+   .footer a{
+     text-decoration:none;
+     font-size:1.1em;
+     display: block;
+     padding:10px;
+     padding-bottom:5px;
+     padding-top:5px;
+     color:#20304F;
+     text-align:center;
+     font-family:'Vidaloka', serif;
+     font-weight:bold;
+   }
+
 @media (min-width:800px){
   .navigation{
     flex-flow:row;
