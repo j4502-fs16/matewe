@@ -19,7 +19,9 @@
   font-family:'Vidaloka', serif;
   font-weight:bold;
 }
-
+ a{
+   color:#ffffff;
+ }
 @media (min-width:800px){
   .navigation{
     flex-flow:row;
@@ -120,7 +122,7 @@ body{
 
 
 h1{
-  color:#334249;
+  color:#ffffff;
   font-family: 'Vidaloka', serif;
   font-size:1.1em;
   font-weight: normal;
@@ -148,7 +150,7 @@ p{
 
 #container{
   width:95%;
-  background-color:#a3c2c2;
+  background-color:#407290;
   margin:0 auto;
 }
 
@@ -176,7 +178,7 @@ p{
 }
 
 #nav a:hover, a:active {
-  background-color: #0E4563;
+  background-color: #ffffff;
 }
 
 img {
