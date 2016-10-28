@@ -70,6 +70,7 @@
 
 img{
   width:100%
+
 }
 
 @media (min-width:800px){
@@ -103,7 +104,7 @@ img{
   }
   img{
     width:50%;
-    height:200px;
+    height:250px;
     margin-right:10px;
 
   }
@@ -138,7 +139,7 @@ h2{
 }
 
 p{
-  color:#0E4563;
+  color:#ffffff;
   font-family: 'Vidaloka', serif;
   font-size: 0.8em;
   margin-top: 0;
