@@ -1,5 +1,119 @@
+.navigation{
+  list-style:none;
+  margin:0;
+  background:#5F7988;
+  padding:0;
+  display:flex;
+  flex-flow:column;
+}
+
+.navigation a{
+  text-decoration:none;
+  font-size:1.1em;
+  display: block;
+  padding:10px;
+  padding-bottom:5px;
+  padding-top:5px;
+  color:#20304F;
+  text-align:center;
+  font-family:'Vidaloka', serif;
+  font-weight:bold;
+}
+
+@media (min-width:800px){
+  .navigation{
+    flex-flow:row;
+    justify-content:flex-end;
+  }
+  .navigation a:hover{
+    background:#ffffff;
+  }
+  .first{
+    margin-right:auto;
+  }
+
+}
+
+.header{
+  background:334249;
+  font-size: 3em
+}
+
+.footer{
+  background:334249;
+}
+
+.main{
+  background:#ffffff;
+  text-align:left;
+}
+
+.aside-1{
+  background:#20304F;
+}
+
+.aside-2{
+  background:#20304F;
+}
+
+.wrapper{
+  display:flex;
+  flex-flow:row wrap;
+  font-weight:bold;
+  text-align:center;
+}
+
+.header, .main, .aside, .footer{
+  flex:1 100%;
+  padding:10px;
+}
+
+img{
+  width:100%
+}
+
+@media (min-width:800px){
+  .aside{
+    flex:1 auto;
+  }
+
+  .main{
+    flex:3 0px;
+  }
+
+  .aside-1{
+    order:1
+  }
+
+  .main{
+    order:2
+  }
+
+  .aside-2{
+    order:3
+  }
+
+  .footer{
+    order:4
+  }
+
+  .main{
+    display:flex;
+    flex-flow:row;
+  }
+  img{
+    width:50%;
+    height:200px;
+    margin-right:10px;
+
+  }
+
+
+
+
+
 body{
-  background-color:#5F7988;
+  background-color:#ffffff;
   text-align:center;
 }
 
@@ -7,7 +121,7 @@ body{
 h1{
   color:#334249;
   font-family: 'Vidaloka', serif;
-  font-size:3em;
+  font-size:1.1em;
   font-weight: normal;
   margin-top: 0;
   text-align: center;
