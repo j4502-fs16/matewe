@@ -23,7 +23,7 @@
    color:#ffffff;
    }
 
-   .footer a{
+.footer a{
      text-decoration:none;
      font-size:1.1em;
      display: block;
@@ -32,24 +32,157 @@
      font-family:'Vidaloka', serif;
      font-weight: normal;
    }
+.footer-nav {
+     list-style: none;
+     margin: 0;
+     background:#5F7988;
+     padding:0;
+     display:flex;
+     flex-flow:row;
+     justify-content: center;
+   }
 
-@media (min-width:800px){
-  .navigation{
-    flex-flow:row;
-    justify-content:flex-end;
-  }
-  .navigation a:hover{
-    background:#ffffff;
-  }
-  .first{
-    margin-right:auto;
-  }
-  h2{
-    color:#ffffff;
-    font-family: 'Vidaloka', serif;
-  }
+.footer-nav a{
+     text-decoration:none;
+     font-size: 1.1em;
+     display:block;
+     padding:10px 20px;
+     color:#ffffff;
+     text-align:center;
+     font-family:'Vidaloka', serif;
+     font-weight: bold;
+   }
 
-}
+   .footer-nav a:hover{
+     background: #5F7988;
+   }
+
+
+
+
+.tab-group{
+     display:flex;
+     flex-flow:column;
+   }
+   .tab label{
+     background:#5F7988;
+     display:block;
+     color:#20304F;
+     font-weight: bold;
+     line-height: 2;
+     width: 17px;
+     padding-left:.5em;
+     padding-right:.5em;
+     margin-bottom:.5em;
+   }
+
+   .tab input:focus + label, .tab label:hover{
+     background:#385260;
+   }
+
+   .tab input{
+     display:none;
+   }
+
+   .tab-content{
+     height:0px;
+     overflow:hidden;
+     transition:height .35s ease-in-out;
+   }
+
+   .tab input:checked ~ .tab-content{
+     height:9em;
+   }
+
+   .subnav{
+     list-style:none;
+     text-align:center;
+     padding:0;
+     font-family:'Vidaloka', serif;
+     font-weight: bold;
+     font-size: 1.1em;
+   }
+
+   .subnav a{
+     text-decoration:none;
+     display:block;
+     color:#ffffff;
+     padding:8px;
+   }
+
+   .subnav li{
+     text-decoration:none;
+     padding-left:30px;
+     padding-right:30px;
+   }
+
+   .tab-content{
+     text-decoration:none;
+     font-size: 1em;
+     font-weight: bold;
+     display:block;
+     text-align:center;
+     background-color:#E8806E;
+   }
+
+   @media all and (max-width:550px){
+     .tab-group{
+       display:flex;
+       flex-flow:row;
+       justify-content:flex-start;
+     }
+
+     .tab label{
+       padding: 0 10px;
+     }
+
+     .tab label:hover ~.tab-content{
+       height:10.5em;
+     }
+
+     .aside-1{
+       display:none;
+     }
+
+     .box-shadow-menu {
+          position: relative;
+          padding-left: 1.25em;
+        }
+
+
+     .box-shadow-menu:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0.25em;
+          width: 1em;
+          height: 0.15em;
+          background: black;
+          box-shadow:
+            0 0.25em 0 0 black,
+            0 0.5em 0 0 black;
+        }
+   }
+
+   @media all and (min-width:550px){
+     .navigation{
+       flex-flow:row;
+       justify-content: flex-end;
+     }
+     .navigation a:hover{
+       background: #ffffff;
+
+     }
+
+     .first{
+       margin-right:auto;
+     }
+
+     h2{
+       color:#ffffff;
+       font-family: 'Vidaloka', serif;
+     }
+   }
 
 .header{
   background:#ffffff;
@@ -65,20 +198,42 @@
   text-align:left;
 }
 
-.aside-1{
-  background:#20304F;
+.about{
+  padding-bottom: 20px;
+  justify-content: center;
+  align-self: center;
 }
 
-.aside-2{
-  background:#20304F;
+.about-me{
+  width:100%;
+  color:#009FB5;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 0px;
+  text-align: left;
+  padding:10px;
+  padding-top: 0px;
+  max-width: 1700px;
 }
 
 .wrapper{
   display:flex;
   flex-flow:row wrap;
-  font-weight:bold;
   text-align:center;
+  width: 100%;
 }
+
+.main, .aside{
+  flex:1 100%;
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+
+.aside-1{
+  background:#20304F;
+}
+
 
 .header, .main, .aside, .footer{
   flex:1 100%;
@@ -90,10 +245,12 @@ img{
 
 }
 
-@media (min-width:800px){
+
+@media all and (min-width:600px){
   .aside{
     flex:1 auto;
   }
+
 
   .main{
     flex:3 0px;
@@ -105,10 +262,6 @@ img{
 
   .main{
     order:2
-  }
-
-  .aside-2{
-    order:3
   }
 
   .footer{
