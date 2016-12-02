@@ -60,20 +60,6 @@ p{
     width: 2em;
 }
 
-.map-wrapper {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-
-.map-wrapper iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
 
 header h1 {
     order: 2;
@@ -97,6 +83,9 @@ nav ul {
     .menu-trigger {
         display: none;
     }
+
+
+
 
     header h1 {
         order: 1;
@@ -224,4 +213,19 @@ img{
 
    .footer-nav a:hover{
      background: #5F7988;
+   }
+
+   .map-wrapper {
+       overflow:hidden;
+       padding-bottom:56.25%;
+       position:relative;
+       height:0;
+   }
+
+   .map-wrapper iframe {
+       left:0;
+       top:0;
+       height:100%;
+       width:100%;
+       position:absolute;
    }
