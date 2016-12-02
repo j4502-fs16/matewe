@@ -60,14 +60,14 @@ p{
     width: 2em;
 }
 
-.map-responsive {
+.map-wrapper {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
 }
 
-.map-responsive iframe{
+.map-wrapper iframe{
     left:0;
     top:0;
     height:100%;
