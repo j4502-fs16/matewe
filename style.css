@@ -86,7 +86,6 @@ nav ul {
 
 
 
-
     header h1 {
         order: 1;
     }
@@ -214,6 +213,7 @@ img{
    .footer-nav a:hover{
      background: #5F7988;
    }
+
 
    .map-wrapper {
        overflow:hidden;
